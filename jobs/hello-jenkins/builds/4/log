@@ -1,0 +1,11 @@
+Started by user [8mha:////4LMr3KhNpyL2jI52a9o+ifKrQtHbeN7/rptK1jqbg7uqAAAAmB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/hello-jenkins
+[hello-jenkins] $ /bin/sh -xe /tmp/jenkins13654522398600992605.sh
++ echo 'hello! welcome to jenkins'
+hello! welcome to jenkins
++ echo 'running with user: '
+running with user: 
++ echo 'currently working direcroty: '
+currently working direcroty: 
+Finished: SUCCESS

@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.cps.config.CPSConfiguration plugin="workflow-cps@3969.vdc9d3a_efcc6a_">
+  <hideSandbox>false</hideSandbox>
+</org.jenkinsci.plugins.workflow.cps.config.CPSConfiguration>

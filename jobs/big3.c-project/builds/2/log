@@ -1,0 +1,26 @@
+Started by user [8mha:////4E76hRF2bUsaevawBK80+G74zrPRIYiFmGiD/v9BYMM5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/big3.c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a36c3708c1c8dbc997324819d4d2dde22b22a9af (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a36c3708c1c8dbc997324819d4d2dde22b22a9af # timeout=10
+Commit message: "Auto-commit: Wed Sep 18 11:07:21 UTC 2024"
+ > git rev-list --no-walk a36c3708c1c8dbc997324819d4d2dde22b22a9af # timeout=10
+[big3.c-project] $ /bin/sh -xe /tmp/jenkins5397711507675321748.sh
++ ls
+c-prog
+cpp
+java
+push-to-git.sh
+python
+Finished: SUCCESS

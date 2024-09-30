@@ -1,0 +1,11 @@
+Started by user [8mha:////4LMr3KhNpyL2jI52a9o+ifKrQtHbeN7/rptK1jqbg7uqAAAAmB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building remotely on [8mha:////4DfNDkRK7M6UPVTHWwNe/ndPgLsaZk80ylpIf7Jk+f3/AAAAnR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6JanFJQr5eakATbVTGscAAAA=[0mtest one in workspace /home/ec2-user/workspace/hello-jenkins
+[hello-jenkins] $ /bin/sh -xe /tmp/jenkins18055015134222562855.sh
++ echo 'hello! welcome to jenkins'
+hello! welcome to jenkins
++ echo 'running with user: '
+running with user: 
++ echo 'currently working direcroty: '
+currently working direcroty: 
+Finished: SUCCESS

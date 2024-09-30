@@ -1,0 +1,6 @@
+[filesystem "Amazon.com Inc.|11.0.24|/dev/xvda1"]
+	timestampResolution = 6000 nanoseconds
+	minRacyThreshold = 11455 microseconds
+[filesystem "Amazon.com Inc.|17.0.12|/dev/xvda1"]
+	timestampResolution = 3769 nanoseconds
+	minRacyThreshold = 18393 microseconds

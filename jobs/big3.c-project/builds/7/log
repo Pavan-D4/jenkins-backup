@@ -1,0 +1,29 @@
+Started by GitHub push by Pavan-D4
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/big3.c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision cafe1fb3b75b88b198a4b2bc7e929bd112da8ef1 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cafe1fb3b75b88b198a4b2bc7e929bd112da8ef1 # timeout=10
+Commit message: "Update Calculator.c"
+ > git rev-list --no-walk e4c4f2108f835a3f64fe4111abd655ce3d526aff # timeout=10
+[big3.c-project] $ /bin/sh -xe /tmp/jenkins14892236158160606440.sh
++ cd /var/lib/jenkins/workspace/big3.c-project/c-prog
++ make
+gcc -Wall -g -c Calculator.c
+gcc -o cal.exe Calculator.o
++ cp /var/lib/jenkins/workspace/big3.c-project/c-prog/cal.exe /opt/tomcat10/webapps/myapp/bin/
++ cd /opt/tomcat10/webapps/myapp/bin
++ chmod +x cal.exe
++ ls
+cal.exe
+Finished: SUCCESS

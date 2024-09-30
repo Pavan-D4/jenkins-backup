@@ -1,0 +1,45 @@
+Started by user [8mha:////4E76hRF2bUsaevawBK80+G74zrPRIYiFmGiD/v9BYMM5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pavan-D4/calculator-app.git
+ > git init /var/lib/jenkins/workspace/big3.c-project # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a36c3708c1c8dbc997324819d4d2dde22b22a9af (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a36c3708c1c8dbc997324819d4d2dde22b22a9af # timeout=10
+Commit message: "Auto-commit: Wed Sep 18 11:07:21 UTC 2024"
+First time build. Skipping changelog.
+[big3.c-project] $ /bin/sh -xe /tmp/jenkins12994817735915011251.sh
++ ls
+c-prog
+cpp
+java
+push-to-git.sh
+python
+[DeployPublisher][INFO] Attempting to deploy 14 war file(s)
+ERROR: Build step failed with exception
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.adapters" is null
+	at PluginClassLoader for deploy//hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:112)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:47)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:446)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE
