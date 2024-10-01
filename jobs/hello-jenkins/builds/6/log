@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4PyKQnW+HxmsGRz7nVkidPDmhVC0rt0d/DqVLERM6rI6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2kzHRjPZBhugVF+VmpySX6AP+j4DnMAAAA[0mbig3.java-project" build number [8mha:////4M9y5E/NwOqNeL94/WUtY/SFbiBNOZ72NzSOXbS60yj+AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/aTMdGM9kGG6BUX5WanJJfrGAHo/7bnNAAAA[0m3
+originally caused by:
+ Started by GitHub push by Pavan-D4
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/hello-jenkins
+[hello-jenkins] $ /bin/sh -xe /tmp/jenkins9752013246530304178.sh
++ echo 'hello! welcome to jenkins'
+hello! welcome to jenkins
+/tmp/jenkins9752013246530304178.sh: line 3: running with user: ${$(whoami)}: bad substitution
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

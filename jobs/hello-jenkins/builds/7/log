@@ -1,0 +1,13 @@
+Started by user [8mha:////4AeePMawIZpqE04ycQvsFPi74IS66WQpCEvUEsAxuXyJAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9AqBBeQAWKWifwAAAAA==[0mpavan
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/hello-jenkins
+[hello-jenkins] $ /bin/sh -xe /tmp/jenkins16090393350397106434.sh
++ echo 'hello! welcome to jenkins'
+hello! welcome to jenkins
+++ whoami
++ echo 'running with user: jenkins'
+running with user: jenkins
+++ pwd
++ echo 'currently working directory: /var/lib/jenkins/workspace/hello-jenkins'
+currently working directory: /var/lib/jenkins/workspace/hello-jenkins
+Finished: SUCCESS

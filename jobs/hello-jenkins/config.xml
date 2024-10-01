@@ -25,8 +25,9 @@
   <builders>
     <hudson.tasks.Shell>
       <command>echo &quot;hello! welcome to jenkins&quot;
-echo &quot;running with user: ${$(whoami)}&quot;
-echo &quot;currently working direcroty: ${$(pwd)}&quot;</command>
+echo &quot;running with user: $(whoami)&quot;
+echo &quot;currently working directory: $(pwd)&quot;
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

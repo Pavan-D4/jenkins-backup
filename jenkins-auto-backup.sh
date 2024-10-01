@@ -1,13 +1,13 @@
 #!/bin/bash
 #
 
-sudo cp -r /var/lib/jenkins/ /home/ec2-user/jenkins-backup
+sudo cp -r /var/lib/jenkins/* /home/ec2-user/jenkins-backup
 
 cd /home/ec2-user/jenkins-backup
 
 cd ../
 
-chown -R ec2-user jenkins-backup
+sudo chown -R ec2-user jenkins-backup
 
 cd jenkins-backup
 
