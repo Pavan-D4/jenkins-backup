@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-sudo cp /var/lib/jenkins/ /home/ec2-user/jenkins-backup
+sudo cp -r /var/lib/jenkins/ /home/ec2-user/jenkins-backup
 
 cd /home/ec2-user/jenkins-backup
 
