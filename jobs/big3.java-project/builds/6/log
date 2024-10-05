@@ -1,0 +1,35 @@
+Started by GitHub push by Pavan-D4
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.java-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pavan-D4/calculator-app.git
+ > git init /var/lib/jenkins/workspace/big3.java-project # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d209ea5ea9b2971bdb05cd1a6fa4318fa2a3d204 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d209ea5ea9b2971bdb05cd1a6fa4318fa2a3d204 # timeout=10
+Commit message: "Update calculator.java"
+ > git rev-list --no-walk dec21837565d17edec76970388db571a12dad008 # timeout=10
+[big3.java-project] $ /bin/sh -xe /tmp/jenkins17557522223376010116.sh
++ ls -l
+total 20
+drwxr-xr-x. 2 jenkins jenkins 16384 Oct  3 14:30 c-prog
+drwxr-xr-x. 2 jenkins jenkins    31 Oct  3 14:30 cpp
+drwxr-xr-x. 2 jenkins jenkins    29 Oct  3 14:30 java
+-rwxr-xr-x. 1 jenkins jenkins   534 Oct  3 14:30 push-to-git.sh
+drwxr-xr-x. 2 jenkins jenkins    25 Oct  3 14:30 python
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Triggering a new build of [8mha:////4KftmYTFOgYHTfXTGA7XzjOfhgHZVsXLADVbgf5rTybiAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2kzHRjvWTdgqL8rNTkEn0A1yHP68kAAAA=[0mbig3.c-project
+Triggering a new build of [8mha:////4PIHag+Ohp9nOb+N82SJQPkZvKYn9TCKxyHCdOLek52LAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2M1JycfN2s1LzszLxifQB6mxzTyAAAAA==[0mhello-jenkins
+Finished: SUCCESS

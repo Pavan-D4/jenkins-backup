@@ -1,0 +1,33 @@
+Started by upstream project "[8mha:////4PyKQnW+HxmsGRz7nVkidPDmhVC0rt0d/DqVLERM6rI6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2kzHRjPZBhugVF+VmpySX6AP+j4DnMAAAA[0mbig3.java-project" build number [8mha:////4Eugy1EBWeeGzK5AFfzHLLs2c3Euf8SskcBLxGCZ8uXAAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/aTMdGM9kGG6BUX5WanJJfomANmqiSfNAAAA[0m4
+originally caused by:
+ Started by user [8mha:////4E76hRF2bUsaevawBK80+G74zrPRIYiFmGiD/v9BYMM5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/big3.c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 45c55f1c365aadea7fab573504b0fcf0874c8f40 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 45c55f1c365aadea7fab573504b0fcf0874c8f40 # timeout=10
+Commit message: "Update Calculator.c"
+ > git rev-list --no-walk c7b54e2a967b2395059b25e0034157d6202e07f4 # timeout=10
+[big3.c-project] $ /bin/sh -xe /tmp/jenkins12950631428105178201.sh
++ cd /var/lib/jenkins/workspace/big3.c-project/c-prog
++ make
+make: Nothing to be done for 'all'.
++ cp /var/lib/jenkins/workspace/big3.c-project/c-prog/cal.exe /opt/tomcat10/webapps/myapp/bin/
++ cd /opt/tomcat10/webapps/myapp/bin
++ chmod +x cal.exe
++ ls
+cal.exe
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

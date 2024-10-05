@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>test node</name>
+  <description></description>
+  <remoteFS>/home/ec2-user/jenkins-slave/</remoteFS>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@2.973.v0fa_8c0dea_f9f">
+    <host>54.174.33.52</host>
+    <port>22</port>
+    <credentialsId>node2</credentialsId>
+    <launchTimeoutSeconds>60</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>green</label>
+  <nodeProperties/>
+</slave>

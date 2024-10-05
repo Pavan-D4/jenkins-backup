@@ -7,7 +7,7 @@
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
   <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@2.973.v0fa_8c0dea_f9f">
-    <host>100.24.62.19</host>
+    <host>54.173.158.26</host>
     <port>22</port>
     <credentialsId>81c3ed37-b88c-4f6f-8504-86998c1c52d7</credentialsId>
     <launchTimeoutSeconds>60</launchTimeoutSeconds>
@@ -16,6 +16,6 @@
     <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
     <tcpNoDelay>true</tcpNoDelay>
   </launcher>
-  <label></label>
+  <label>green</label>
   <nodeProperties/>
 </slave>

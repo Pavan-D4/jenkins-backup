@@ -1,0 +1,29 @@
+Started by GitHub push by Pavan-D4
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/big3.java-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pavan-D4/calculator-app.git
+ > git init /var/lib/jenkins/workspace/big3.java-project # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision dec21837565d17edec76970388db571a12dad008 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dec21837565d17edec76970388db571a12dad008 # timeout=10
+Commit message: "Update calculator.java"
+ > git rev-list --no-walk 45c55f1c365aadea7fab573504b0fcf0874c8f40 # timeout=10
+[big3.java-project] $ /bin/sh -xe /tmp/jenkins8305625492230242569.sh
++ cd /var/lib/jenkins/workspace/big3.c-project/java
+/tmp/jenkins8305625492230242569.sh: line 2: cd: /var/lib/jenkins/workspace/big3.c-project/java: No such file or directory
+Build step 'Execute shell' marked build as failure
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: FAILURE

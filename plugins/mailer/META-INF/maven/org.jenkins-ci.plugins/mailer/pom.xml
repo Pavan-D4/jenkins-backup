@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>mailer</artifactId>
-  <version>472.vf7c289a_4b_420</version>
+  <version>488.v0c9639c1a_eb_3</version>
   <packaging>hpi</packaging>
   <name>Jenkins Mailer Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -20,7 +20,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/mailer-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/mailer-plugin.git</developerConnection>
-    <tag>f7c289a4b4206256bde71c4c7eff9f5eb5e7ebc6</tag>
+    <tag>0c9639c1aeb3be6b01137ab3ed2393c3d36f95fe</tag>
     <url>https://github.com/jenkinsci/mailer-plugin</url>
   </scm>
   <distributionManagement>
@@ -37,7 +37,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>display-url-api</artifactId>
-      <version>2.200.vb_9327d658781</version>
+      <version>2.204.vf6fddd8a_8b_e9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -58,7 +58,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.53</version>
+        <version>3.57</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

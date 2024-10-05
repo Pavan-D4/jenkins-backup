@@ -1,0 +1,18 @@
+Started by upstream project "[8mha:////4PyKQnW+HxmsGRz7nVkidPDmhVC0rt0d/DqVLERM6rI6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2kzHRjPZBhugVF+VmpySX6AP+j4DnMAAAA[0mbig3.java-project" build number [8mha:////4IDXIP5Ha5Oh9EyUOyeCUY3Vtfj+NIuUAzdzJ0iYd64QAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/aTMdGM9kGG6BUX5WanJJfoWAPLmPy7NAAAA[0m8
+originally caused by:
+ Started by user [8mha:////4E76hRF2bUsaevawBK80+G74zrPRIYiFmGiD/v9BYMM5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/hello-jenkins
+[hello-jenkins] $ /bin/sh -xe /tmp/jenkins10425768767569283295.sh
++ echo 'hello! welcome to jenkins'
+hello! welcome to jenkins
+++ whoami
++ echo 'running with user: jenkins'
+running with user: jenkins
+++ pwd
++ echo 'currently working directory: /var/lib/jenkins/workspace/hello-jenkins'
+currently working directory: /var/lib/jenkins/workspace/hello-jenkins
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

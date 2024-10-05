@@ -1,0 +1,35 @@
+Started by user [8mha:////4E76hRF2bUsaevawBK80+G74zrPRIYiFmGiD/v9BYMM5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Running as SYSTEM
+Building remotely on [8mha:////4I44cUg4X8bA8FtL0Bdb0qSWTGpWuIEzr/KO96QaFmhpAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/TygO3UNAbu1lhvFAAAA[0mnode-1 (green) in workspace /home/ec2-user/jenkins-slave/workspace/big3.java-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pavan-D4/calculator-app.git
+ > git init /home/ec2-user/jenkins-slave/workspace/big3.java-project # timeout=10
+Fetching upstream changes from https://github.com/Pavan-D4/calculator-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/Pavan-D4/calculator-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pavan-D4/calculator-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d209ea5ea9b2971bdb05cd1a6fa4318fa2a3d204 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d209ea5ea9b2971bdb05cd1a6fa4318fa2a3d204 # timeout=10
+Commit message: "Update calculator.java"
+ > git rev-list --no-walk d209ea5ea9b2971bdb05cd1a6fa4318fa2a3d204 # timeout=10
+[big3.java-project] $ /bin/sh -xe /tmp/jenkins16196212648563380442.sh
++ ls -l
+total 20
+drwxrwxr-x. 2 ec2-user ec2-user 16384 Oct  3 14:56 c-prog
+drwxrwxr-x. 2 ec2-user ec2-user    31 Oct  3 14:56 cpp
+drwxrwxr-x. 2 ec2-user ec2-user    29 Oct  3 14:56 java
+-rwxrwxr-x. 1 ec2-user ec2-user   534 Oct  3 14:56 push-to-git.sh
+drwxrwxr-x. 2 ec2-user ec2-user    25 Oct  3 14:56 python
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Triggering a new build of [8mha:////4KftmYTFOgYHTfXTGA7XzjOfhgHZVsXLADVbgf5rTybiAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2kzHRjvWTdgqL8rNTkEn0A1yHP68kAAAA=[0mbig3.c-project
+Triggering a new build of [8mha:////4PIHag+Ohp9nOb+N82SJQPkZvKYn9TCKxyHCdOLek52LAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2M1JycfN2s1LzszLxifQB6mxzTyAAAAA==[0mhello-jenkins
+Finished: SUCCESS
