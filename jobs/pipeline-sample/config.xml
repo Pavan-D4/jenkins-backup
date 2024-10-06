@@ -17,23 +17,28 @@
     agent any
 
     stages {
-        stage(&apos;stage 1&apos;) {
+        stage(&apos;checkout&apos;) {
             steps {
-                echo &apos;Hello World&apos;
+                echo &apos;checkout stage&apos;
             }
         }
-        stage(&apos;stage 2&apos;) {
+        stage(&apos;build&apos;) {
             steps {
-                echo &apos;Hello World in stage 2&apos;
+                cho &apos;build stage&apos;
             }
         }
-        stage(&apos;stage 3&apos;) {
+        stage(&apos;test&apos;) {
             steps {
-                echo &apos;Hello World in stage 3&apos;
+                echo &apos;test stage&apos;
+            }
+        }
+        stage(&apos;deploy&apos;) {
+            steps {
+                echo &apos;deploy stage&apos;
             }
         }
     }
- }</script>
+}</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>
